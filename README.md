@@ -48,7 +48,7 @@ Install dependencies.
 yarn install
 ```
 
-Serve with hot reload at http://localhost:3000.
+Serve with hot reload at <http://localhost:3000>.
 
 ```bash
 yarn dev
@@ -101,7 +101,7 @@ Some built-in variables are available in all cases:
 import.meta.env.VITE_APP_NAME
 ```
 
-You can see more [here]([env](https://vitejs.dev/guide/env-and-mode.html)).
+You can see more [here](https://vitejs.dev/guide/env-and-mode.html).
 
 ---
 
