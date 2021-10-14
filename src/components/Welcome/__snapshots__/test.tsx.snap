@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Intro /> should render the Intro 1`] = `
+<style>
+  
+        form {
+          width: 100%;
+        }
+
+        .houston-icon {
+          line-height: 0;
+        }
+
+        
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700');
+
+        body {
+          font-family: Open Sans, "Helvetica Neue", Arial, sans-serif;
+          font-size: 16px;
+        }
+      
+      
+</style>
+`;
