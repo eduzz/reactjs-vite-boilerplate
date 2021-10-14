@@ -77,7 +77,7 @@ yarn test
 You can generate components 40x more fast using the following command:
 
 ```bash
-yarn generate ComponentName
+yarn generate Component
 ```
 
 This will generate a new `Component` in the `components` directory with a default `index.tsx` and `test.tsx` file.
