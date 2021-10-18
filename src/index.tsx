@@ -1,16 +1,20 @@
 import React from 'react';
 
 import ReactDOM from 'react-dom';
+import { Provider as ReduxProvider } from 'react-redux';
 
 import ThemeProvider from '@eduzz/houston-ui/styles/ThemeProvider';
 
-import App from './App';
+import App from '@/App';
+import { store } from '@/redux/store';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeProvider>
-      <App />
-    </ThemeProvider>
+    <ReduxProvider store={store}>
+      <ThemeProvider>
+        <App />
+      </ThemeProvider>
+    </ReduxProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
