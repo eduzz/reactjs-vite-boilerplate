@@ -2,6 +2,7 @@ import React from 'react';
 
 import ReactDOM from 'react-dom';
 import { Provider as ReduxProvider } from 'react-redux';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 import ThemeProvider from '@eduzz/houston-ui/styles/ThemeProvider';
 
@@ -12,7 +13,9 @@ ReactDOM.render(
   <React.StrictMode>
     <ReduxProvider store={store}>
       <ThemeProvider>
-        <App />
+        <Router>
+          <App />
+        </Router>
       </ThemeProvider>
     </ReduxProvider>
   </React.StrictMode>,
