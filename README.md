@@ -22,6 +22,8 @@ This project uses many tools like:
 - [TypeScript](https://www.typescriptlang.org)
 - [Jest](https://jestjs.io)
 - [Testing Library](https://testing-library.com)
+- [React Router](https://reactrouter.com)
+- [Redux Toolkit](https://redux-toolkit.js.org)
 - [Houston](https://eduzz.github.io/houston/inicio)
 - [Eslint](https://eslint.org)
 - [Prettier](https://prettier.io)
